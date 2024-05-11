@@ -19,7 +19,7 @@ export default function HomePage() {
       url: '',
     },
     validate: {
-      url: (value) => (/(https?:\/\/.*):(\d*)\/?(.*)/.test(value) ? null : 'Invalid URL'),
+      url: (value) => null,
     },
   })
 
